@@ -5,7 +5,7 @@ import { MdOutlineRocketLaunch,MdOutlineEmail } from 'react-icons/md';
 import { TbNotes } from 'react-icons/tb';
 import { LuSettings,LuLogOut } from 'react-icons/lu';
 import { HiMiniUsers,HiOutlineChartPie } from 'react-icons/hi2';
-
+import Image from 'next/image'
 
 const Sidebar = () => {
   return (
@@ -15,7 +15,7 @@ const Sidebar = () => {
                 <LuSparkle className='fill-amber-400 h-6 w-6 text-amber-400'/>
             </div>
             <div className='mt-12 ml-1'>
-                <img src="profile.png" className='rounded-lg h-8 w-8 hover:cursor-pointer'/>
+                <Image alt="profile" src="/profile.png" className='rounded-lg h-8 w-8 hover:cursor-pointer' width={8} height={8} unoptimized/>
             </div>
             <div className='mt-8'>
                 <p className='bg-orange-50 rounded-full items-center h-11 w-11 flex justify-center'>

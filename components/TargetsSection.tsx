@@ -5,7 +5,7 @@ const TargetsSection = () => {
     return (
         <div className='h-screen '> 
             <div className='flex flex-col mt-8 text-xl ml-9'>
-                <p>Let's define your <span className='text-amber-400'>targets</span></p>
+                <p>Let&apos;s define your <span className='text-amber-400'>targets</span></p>
                 <p className='text-xs text-gray-500 mt-2'>Focus on the most relevant fields to shape your ICP — all fields are optional</p>
             </div>
             <div className='flex flex-col mt-7 text-2xl ml-8'>

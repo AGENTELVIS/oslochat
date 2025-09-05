@@ -13,7 +13,7 @@ const ChatSection = () => {
             <p className='text-3xl self-center ml-2 '>Oslo chat</p>
         </div>
         <div className='text-gray-600'>
-            <p className='mt-20 ml-13 text-sm '>Hello I'm Oslo. Tell me what's on your mind</p>
+            <p className='mt-20 ml-13 text-sm '>Hello I&apos;m Oslo. Tell me what&apos;s on your mind</p>
             <div className='ml-13 mt-2 flex'>
                 <TbCopy className='h-4 w-4'/>
                 <IoMdRefresh className='ml-1 h-4 w-4'/>
