@@ -11,7 +11,7 @@ const ChatTopbar = () => {
                 <span>
                     Untitled List
                 </span>
-                <LuPencilLine className='ml-2'/>
+                <LuPencilLine className='ml-2 '/>
             </p>
         </div>
         <div className='flex items-center ml-30 mt-2'>
@@ -33,10 +33,10 @@ const ChatTopbar = () => {
             </div>
         </div>
         <div className='flex items-center ml-25'>
-            <div className='text-sm text-gray-600 font-mono'>
+            <div className='text-sm text-gray-600 font-mono hover:cursor-pointer'>
                 Save
             </div>
-            <div className='flex bg-gradient-to-r from-amber-300  to-amber-500 h-7 rounded-sm ml-4 p-2 pb-4 pt-4 items-center font-semibold text-white text-[13px]'>
+            <div className='flex bg-gradient-to-r from-amber-300  to-amber-500 h-7 rounded-sm ml-4 p-2 pb-4 pt-4 items-center font-semibold text-white text-[13px] hover:cursor-pointer'>
                 Make Campaign
             </div>
         </div>

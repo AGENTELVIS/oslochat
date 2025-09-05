@@ -30,7 +30,7 @@ const ChatSection = () => {
                 <IoMdRefresh className='ml-1 h-4 w-4'/>
             </div>
         </div>
-        <div className='ml-11 w-4/9 h-11 bottom-20 flex border border-gray-300 rounded-md justify-between self-center items-center fixed shadow-xs'>
+        <div className='ml-11 w-4/9 h-11 bottom-20 flex border border-gray-300 rounded-md justify-between self-center items-center fixed shadow-xs hover:cursor-text'>
             <HiSearch className=' ml-3 text-gray-400 h-5 w-5'/>
             <BiSolidMicrophone className=' mr-3 text-amber-400 h-5 w-5'/>
         </div>
